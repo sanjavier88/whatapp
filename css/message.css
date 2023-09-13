@@ -1,0 +1,95 @@
+.message {
+    /* border: 1px solid red; */
+    background: white;
+    padding: .5rem;
+    font: var(--body-16regular);
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    position: relative;
+}
+
+.message-text {
+    margin: 0;
+}
+
+.message.is-receiver {
+    background: var(--white);
+    align-self: flex-start;
+    border-radius: 0 .5rem .5rem .5rem;
+}
+
+.message.message.is-receiver::before{
+    content: '';
+    /* border: 1px solid red; */
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-end: 100%;
+    /* background: red; */
+
+    inline-size: 12px;
+    block-size: 12px;
+    box-sizing: border-box; 
+    border-top: 6px solid white;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-right: 6px solid white;
+    
+}
+
+.message.is-sender {
+    background: var(--green-1);
+    align-self: flex-end;
+    border-radius: .5rem .0rem .5rem .5rem;
+}
+
+.message.message.is-sender::before{
+    content: '';
+    /* border: 1px solid red; */
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 100%;
+
+    inline-size: 12px;
+    block-size: 12px;
+    box-sizing: border-box; 
+    border-top: 6px solid var(--green-1);
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid var(--green-1);
+    border-right: 6px solid transparent;
+}
+
+
+.message-date {
+    font:var(--caption-12regular);
+    color: var(--grey);
+}
+
+.message-status {
+    /* border: 1px solid red; */
+    inline-size: 1rem;
+    block-size: 1rem;
+}
+
+.message-status.is-dobleCheck {
+    /* border: 10px solid green; */
+    background-image: url('../images/check.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.message-details {
+    display: flex;
+    justify-content: flex-end;
+    gap: .25rem;
+}
+
+/* .random {
+    inline-size: 12px;
+    box-sizing: border-box; 
+    border-top: 6px solid red;
+    border-bottom: 6px solid blue;
+    border-left: 6px solid green;
+    border-right: 6px solid black;
+    
+} */
