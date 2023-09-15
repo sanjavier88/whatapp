@@ -9,4 +9,6 @@
     gap: 1.5rem;
     padding: 1rem;
     background-image: url('../images/bg.jpg');
+    /* background-repeat: no-repeat; */
+    background: cover;
 }

@@ -1,0 +1,27 @@
+.perfil {
+     /* border: 1px solid red; */
+     
+}
+
+.perfil-user{
+    border: 1px solid red;
+    display: flex; 
+}
+
+.perfil img {
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.perfil .user-name {
+    display: block;
+}
+
+.perfil .mensaje {
+    
+    display: block;
+}
+
+.perfil-fecha {
+    border: 1px solid red;
+}

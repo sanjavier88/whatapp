@@ -4,6 +4,10 @@
 @import './message-list.css'; 
 @import './action-list.css'; 
 @import './message.css'; 
+@import './icon.css'; 
+@import './buttonIcon.css'; 
+@import './form.css'; 
+@import './perfil.css'; 
 
 
 :root {

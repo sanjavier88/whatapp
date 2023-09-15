@@ -1,0 +1,129 @@
+[class^='icon-'], [class*=' icon-']{
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    background: cover;
+    display: inline-block;
+}
+
+.icon-search {
+    background-image: url('../icons/search.svg');
+   
+}
+
+.icon-arrowLeft {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+.icon-camera {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+.icon-check {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+.icon-edit {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+.icon-message-square {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+.icon-mic {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+.icon-paperclip {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+.icon-puse {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+.icon-play {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+.icon-send {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+.icon-smile {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+.icon-x {
+    background-image: url('../icons/arrow-left.svg');
+   
+}
+
+
+/* @font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?yrxff8');
+    src:  url('fonts/icomoon.eot?yrxff8#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?yrxff8') format('truetype'),
+      url('fonts/icomoon.woff?yrxff8') format('woff'),
+      url('fonts/icomoon.svg?yrxff8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+   
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+   
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-left:before {
+    content: "\e900";
+  }
+  .icon-camera:before {
+    content: "\e901";
+  }
+  .icon-check:before {
+    content: "\e902";
+  }
+  .icon-edit-2:before {
+    content: "\e903";
+  }
+  .icon-message-square:before {
+    content: "\e904";
+  }
+  .icon-mic:before {
+    content: "\e905";
+  }
+  .icon-paperclip:before {
+    content: "\e906";
+  }
+  .icon-pause:before {
+    content: "\e907";
+  }
+  .icon-play:before {
+    content: "\e908";
+  }
+  .icon-search:before {
+    content: "\e909";
+  }
+  .icon-send:before {
+    content: "\e90a";
+  }
+  .icon-smile:before {
+    content: "\e90b";
+  }
+  .icon-x:before {
+    content: "\e90c";
+  }
+   */
