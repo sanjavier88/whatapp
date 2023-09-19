@@ -1,4 +1,5 @@
 .header {
+   /* border: 1px solid red; */
     block-size: var(--headerSize);
     display: flex;
     background: var(--grey-4);

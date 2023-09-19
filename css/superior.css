@@ -1,0 +1,12 @@
+.superior {
+    inline-size: 360px;
+    block-size: 80px;
+    background: var(--grey-4);
+}
+
+.superior img {
+    border-radius: 50%;
+    padding: 1rem;
+    inline-size: 48px;
+    block-size: 48px;
+}

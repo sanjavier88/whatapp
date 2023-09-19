@@ -8,13 +8,14 @@
 @import './buttonIcon.css'; 
 @import './form.css'; 
 @import './perfil.css'; 
+@import './title.css'; 
+@import './superior.css'; 
 
 
 :root {
     font-size: 16px;
     --headerSize: 80px;
     --actionSize: 80px;
-
     --black: #000000; 
     --grey: #666667; 
     --grey-2: #f2f2f2; 
