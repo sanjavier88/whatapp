@@ -1,0 +1,7 @@
+.sidebar {
+    /* border: 1px solid red; */
+    inline-size: 360px;
+    block-size: 950px;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+}

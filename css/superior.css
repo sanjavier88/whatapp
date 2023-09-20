@@ -5,6 +5,7 @@
 }
 
 .superior img {
+    vertical-align: middle;
     border-radius: 50%;
     padding: 1rem;
     inline-size: 48px;
