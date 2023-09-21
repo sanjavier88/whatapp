@@ -1,5 +1,6 @@
 .buttonIcon {
     inline-size: 1.5rem;
     block-size: 1.5rem;
+    background: transparent;
     border: none;
 }
