@@ -3,6 +3,7 @@
 
 .message-list {
     flex-grow: 1;
+    block-size: 100vh;
     /* border: 10px solid chocolate; */
     display: flex;
     flex-direction: column-reverse;
