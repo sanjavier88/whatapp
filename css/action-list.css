@@ -21,22 +21,25 @@
 
  .action-list .action-list-form {
   position: relative;
-  /* border: 1px solid red;  */
+  border: 1px solid red; 
   display: flex;
-
+  flex: 1;
+  
   /* box-sizing: border-box; */
   /* flex: 1; */
 } 
 
 .action-list .action-list-form input{
+  display: block;
+  /* inline-size: 910px; */
   
-  inline-size: 775px;
   block-size: 52px;
   padding-inline: 24px;
   font: var(--body-16regular);
   border-radius: 50px;
   border: none;
   overflow: hidden;
+  
   /* padding-block-start: 1rem ;
   padding-block-end: 1rem ; */
 }
@@ -47,6 +50,7 @@
   bottom: 20%;
  
 } */
+
 
 .action-list-end {
  
