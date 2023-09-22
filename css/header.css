@@ -1,11 +1,12 @@
 .header {
-   border: 1px solid blue;
+    /* border: 1px solid blue; */
     block-size: var(--headerSize);
     display: flex;
     background: var(--grey-4);
     justify-content: space-between;
     padding: 1rem;
-   
+    block-size: 80px;
+    box-sizing: border-box;
  }
 
  .header-primary, .header-secondary {

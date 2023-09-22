@@ -7,12 +7,11 @@
     background: var(--grey-4);
     align-items: center;
     box-sizing: border-box;
-    /* overflow: hidden; */
    
 }
 
 .action-list-start {
-  /* border: 1px solid red; */
+
   display: flex;
   gap: 1rem;
   padding: 0;
@@ -21,35 +20,30 @@
 
  .action-list .action-list-form {
   position: relative;
-  border: 1px solid red; 
   display: flex;
   flex: 1;
   
-  /* box-sizing: border-box; */
-  /* flex: 1; */
+
 } 
+
+.action-list .action-list-form  form{
+  display: flex;
+  flex: 1;
+}
 
 .action-list .action-list-form input{
   display: block;
-  /* inline-size: 910px; */
-  
+  inline-size: 100%;
   block-size: 52px;
   padding-inline: 24px;
   font: var(--body-16regular);
   border-radius: 50px;
   border: none;
   overflow: hidden;
-  
-  /* padding-block-start: 1rem ;
-  padding-block-end: 1rem ; */
+ 
 }
 
-/* .action-list-form i {
-  position: absolute;
-  right: 50px;
-  bottom: 20%;
- 
-} */
+
 
 
 .action-list-end {

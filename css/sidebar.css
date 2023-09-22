@@ -1,7 +1,11 @@
 .sidebar {
     /* border: 1px solid red; */
-    inline-size: 360px;
+    inline-size: 500px;
     block-size: 950px;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* box-sizing: border-box; */
+}
+
+.sidebar form {
+    /* border: 1px solid red; */
 }
